@@ -1,0 +1,50 @@
+[
+  {
+    "id": "7de5bc0d-a0c3-4362-975d-f840f1add594",
+    "data": [
+      {
+        "text": "can you ",
+        "userDefined": false
+      },
+      {
+        "text": "summarize",
+        "alias": "summarize",
+        "meta": "@summarize",
+        "userDefined": false
+      },
+      {
+        "text": " top ",
+        "userDefined": false
+      },
+      {
+        "text": "publication",
+        "alias": "research_paper",
+        "meta": "@research_paper",
+        "userDefined": false
+      },
+      {
+        "text": " on data ",
+        "userDefined": false
+      },
+      {
+        "text": "science",
+        "alias": "subject",
+        "meta": "@subject",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "december 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522360040
+  }
+]

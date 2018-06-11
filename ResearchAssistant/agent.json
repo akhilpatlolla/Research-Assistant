@@ -1,0 +1,48 @@
+{
+  "description": "Research Assistant is a conversational AI bot which helps researchers to to analyze and summarize the published research papers. It can also answer your questions from the paper.",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "documentreader-69def",
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "c7b6df30-33f2-4462-a3ca-d924c88c8aa3"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/Chicago",
+  "webhook": {
+    "url": "https://us-central1-documentreader-69def.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [
+    "da",
+    "de",
+    "es",
+    "fr",
+    "hi",
+    "zh-cn"
+  ],
+  "onePlatformApiVersion": "v1legacy"
+}

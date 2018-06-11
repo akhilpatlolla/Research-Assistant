@@ -1,0 +1,57 @@
+[
+  {
+    "value": "DOIs",
+    "synonyms": [
+      "DOIs"
+    ]
+  },
+  {
+    "value": "RePEC",
+    "synonyms": [
+      "RePEC"
+    ]
+  },
+  {
+    "value": "arXiv",
+    "synonyms": [
+      "arXiv"
+    ]
+  },
+  {
+    "value": "URN",
+    "synonyms": [
+      "Uniform Resource Name",
+      "URN"
+    ]
+  },
+  {
+    "value": "PubMed",
+    "synonyms": [
+      "PubMedID"
+    ]
+  },
+  {
+    "value": "ADS",
+    "synonyms": [
+      "ADS"
+    ]
+  },
+  {
+    "value": "ISBNs",
+    "synonyms": [
+      "ISBNs"
+    ]
+  },
+  {
+    "value": "SSRN",
+    "synonyms": [
+      "SSRN"
+    ]
+  },
+  {
+    "value": "Handle",
+    "synonyms": [
+      "Handle"
+    ]
+  }
+]

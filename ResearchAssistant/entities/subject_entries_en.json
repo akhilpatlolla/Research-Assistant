@@ -1,0 +1,80 @@
+[
+  {
+    "value": "general",
+    "synonyms": [
+      "general"
+    ]
+  },
+  {
+    "value": "mathamatics",
+    "synonyms": [
+      "mathamatics"
+    ]
+  },
+  {
+    "value": "social",
+    "synonyms": [
+      "social"
+    ]
+  },
+  {
+    "value": "statistics",
+    "synonyms": [
+      "statistics"
+    ]
+  },
+  {
+    "value": "computer science",
+    "synonyms": [
+      "computer science"
+    ]
+  },
+  {
+    "value": "data sicece",
+    "synonyms": [
+      "data sicece"
+    ]
+  },
+  {
+    "value": "anthropology",
+    "synonyms": [
+      "anthropology"
+    ]
+  },
+  {
+    "value": "science",
+    "synonyms": [
+      "science"
+    ]
+  },
+  {
+    "value": "physics",
+    "synonyms": [
+      "physics"
+    ]
+  },
+  {
+    "value": "biology",
+    "synonyms": [
+      "biology"
+    ]
+  },
+  {
+    "value": "science",
+    "synonyms": [
+      "science"
+    ]
+  },
+  {
+    "value": "subject",
+    "synonyms": [
+      "subject",
+      "category",
+      "research topic",
+      "topic",
+      "domain",
+      "pulication domain",
+      "research area"
+    ]
+  }
+]

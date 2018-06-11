@@ -1,0 +1,28 @@
+{
+  "id": "c7b6df30-33f2-4462-a3ca-d924c88c8aa3",
+  "name": "Exit Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Good Bye"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522042883,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "725f0ad5-6658-452a-9bad-9a2a7978a4e0",
+    "data": [
+      {
+        "text": "Good bye !",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522042883
+  },
+  {
+    "id": "21c4de16-7511-4ce9-9412-21cd88b77711",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "4a1a4630-bc09-4450-9a6b-9365128b1e2d",
+    "data": [
+      {
+        "text": "exit agent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522042883
+  },
+  {
+    "id": "8a707f7a-e309-49e0-a701-9f48de9e449b",
+    "data": [
+      {
+        "text": "quit agent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522042883
+  },
+  {
+    "id": "42625771-488b-41b4-a04c-1907214e4c62",
+    "data": [
+      {
+        "text": "quit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522042883
+  },
+  {
+    "id": "a52c60ed-a783-4a1c-9b69-bf1ba19066f1",
+    "data": [
+      {
+        "text": "Exit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522042883
+  }
+]

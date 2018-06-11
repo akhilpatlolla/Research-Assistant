@@ -1,0 +1,51 @@
+{
+  "id": "59451ac3-9a84-4a5d-b32b-df92eb4509ab",
+  "name": "author",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c717a467-cef5-4eb5-97cb-8fba5a5f6414",
+          "required": false,
+          "dataType": "@research_paper",
+          "name": "research_paper",
+          "value": "$research_paper",
+          "isList": false
+        },
+        {
+          "id": "eefb1ea6-8bb3-45f7-9de9-5d333935ba28",
+          "required": false,
+          "dataType": "@author_name",
+          "name": "author_name",
+          "value": "$author_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify name of the author to pull a research paper"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522361081,
+  "fallbackIntent": false,
+  "events": []
+}

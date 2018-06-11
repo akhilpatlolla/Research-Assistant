@@ -1,0 +1,30 @@
+{
+  "id": "079a1ceb-2020-4ebe-a42f-a4b8eadf751d",
+  "name": "developer",
+  "auto": true,
+  "contexts": [
+    "defaultwelcomeintent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Akhil Patlolla"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522905268,
+  "fallbackIntent": false,
+  "events": []
+}

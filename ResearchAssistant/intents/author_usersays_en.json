@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ea330474-94c9-4bc9-b0b9-091b8c4356e0",
+    "data": [
+      {
+        "text": "can you get a ",
+        "userDefined": false
+      },
+      {
+        "text": "paper",
+        "alias": "research_paper",
+        "meta": "@research_paper",
+        "userDefined": false
+      },
+      {
+        "text": " written by an ",
+        "userDefined": false
+      },
+      {
+        "text": "author",
+        "alias": "author_name",
+        "meta": "@author_name",
+        "userDefined": false
+      },
+      {
+        "text": " for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522359046
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "id": "c611a87a-8785-4efb-b98c-4b9fc7a921dc",
+  "name": "summarize_date_subject",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "125fd70f-23e2-4204-b17f-04e257b36b89",
+          "required": false,
+          "dataType": "@summarize",
+          "name": "summarize",
+          "value": "$summarize",
+          "isList": false
+        },
+        {
+          "id": "3a2eaaf2-7547-41ac-9918-183e72fe2427",
+          "required": true,
+          "dataType": "@research_paper",
+          "name": "research_paper",
+          "value": "$research_paper",
+          "isList": false
+        },
+        {
+          "id": "e22093f4-9d6e-4a47-9f12-71e3795b135b",
+          "required": true,
+          "dataType": "@subject",
+          "name": "subject",
+          "value": "$subject",
+          "isList": false
+        },
+        {
+          "id": "005de2b1-5523-43d0-98ae-31cd9f4e8f28",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522360966,
+  "fallbackIntent": false,
+  "events": []
+}

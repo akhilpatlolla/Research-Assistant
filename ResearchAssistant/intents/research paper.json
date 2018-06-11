@@ -1,0 +1,81 @@
+{
+  "id": "e95195e1-e000-459a-b0be-48041e7ee31f",
+  "name": "research paper",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d1a952f2-00b1-4d92-b5f1-121017c28c6b",
+          "required": true,
+          "dataType": "@research_paper",
+          "name": "research_paper",
+          "value": "$research_paper",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sounds good. do you have a title of a paper in your mind?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "209f6bdb-bf57-45ca-80e4-fb734edc6a8c",
+          "required": true,
+          "dataType": "@subject",
+          "name": "subject",
+          "value": "$subject",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the topic?"
+            },
+            {
+              "lang": "en",
+              "value": "which subject are you looking for ?"
+            },
+            {
+              "lang": "en",
+              "value": "what research areas are you interested in ?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "7a9e6fcc-4bf2-435c-b935-1b466809a5c1",
+          "required": false,
+          "dataType": "@author_name",
+          "name": "author_name",
+          "value": "$author_name",
+          "isList": false
+        },
+        {
+          "id": "35350487-7070-457a-83fc-31a747ce816b",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522360929,
+  "fallbackIntent": false,
+  "events": []
+}
