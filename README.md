@@ -11,7 +11,7 @@ This explains the dialog flow and user interactions. Invocation trigger will tri
 **Text Extraction form Pdf/ doc/docx format:**
 # **Recurrent Neural Network**
 
-## This is an unadulterated NumPy usage of wordage utilizing an RNN. We will have our system figure out how to anticipate the following words in a given passage. This will require an intermittent design since the system should recall a grouping of characters. The request matters. 1000 emphases and we'll have pronounceable English. The more drawn out the preparation time the better. You can sustain it any content succession (words, Python, HTML, and so on.)
+ This is an unadulterated NumPy usage of wordage utilizing an RNN. We will have our system figure out how to anticipate the following words in a given passage. This will require an intermittent design since the system should recall a grouping of characters. The request matters. 1000 emphases and we'll have pronounceable English. The more drawn out the preparation time the better. You can sustain it any content succession (words, Python, HTML, and so on.)
 
 ## What is a Recurrent Network?
 Feedforward networks are great for learning a pattern between a set of inputs and outputs.
@@ -20,32 +20,29 @@ Feedforward networks are great for learning a pattern between a set of inputs an
 - height &amp; weight
 - car speed and brand
 
-But what if the ordering of the data matters?
+## But what if the ordering of the data matters?
 
-## Letters in order, Lyrics of a tune. These are put away utilizing Conditional Memory. You can just access a component on the off chance that you approach the past components (like a LinkedList). We bolster the concealed state from the past time advance once again into the system at whenever step. So rather than the information stream activity happening this way
+ Letters in order, Lyrics of a tune. These are put away utilizing Conditional Memory. You can just access a component on the off chance that you approach the past components (like a LinkedList). We bolster the concealed state from the past time advance once again into the system at whenever step. So rather than the information stream activity happening this way
 
-## input -&gt; hidden -&gt; output
+input -&gt; hidden -&gt; output
 
-it happens like this
+## it happens like this
 
-## (input + prev\_hidden) -&gt; hidden -&gt; output
+(input + prev\_hidden) -&gt; hidden -&gt; output
 
-wait. Why not this?
+## wait. Why not this?
 
-## (input + prev\_input) -&gt; hidden -&gt; output
+(input + prev\_input) -&gt; hidden -&gt; output
 
 Hidden recurrence learns what to remember whereas input recurrence is hard-wired to just remember the immediately previous data point.
 
-**RNN**** Formula**
-
+**RNN**
 
 It essentially says the currently concealed state h(t) is a capacity f of the past shrouded state h(t-1) and the present info x(t). The theta is the parameters of the capacity f. The system normally figures out how to utilize h(t) as a sort of lossy outline of the assignment significant parts of the past success of contributions up to t.
 
 **Loss function**
 
-
-
-## The aggregate misfortune for a given succession of x esteems combined with a grouping of y esteems would then be only the whole of the misfortunes over all the time steps. For instance, if L(t) is the negative log-probability of y (t) given x (1), . . . , x (t), then total them up you get the misfortune for the grouping
+The aggregate misfortune for a given succession of x esteems combined with a grouping of y esteems would then be only the whole of the misfortunes over all the time steps. For instance, if L(t) is the negative log-probability of y (t) given x (1), . . . , x (t), then total them up you get the misfortune for the grouping
 
 ## Steps
 
@@ -62,7 +59,7 @@ It essentially says the currently concealed state h(t) is a capacity f of the pa
 - Time series prediction (weather forecasting, stock prices, traffic volume, etc. )
 - Sequential data generation (music, video, audio, etc.)
 
-The code contains 4 parts
+## The code contains 4 parts
 
 - Load the training data
   - encode char into vectors
@@ -91,19 +88,19 @@ The misfortune work figures the misfortune yet, in addition, the inclinations (s
 - a list of target char
 - and the previously hidden state
 
-This function outputs:
+## This function outputs:
 
 - the loss
 - the gradient for each parameter between layers
 - The last hidden state
 
-Advanced dynamic seq2seq with TensorFlow
+## Advanced dynamic seq2seq with TensorFlow
 
 The encoder is bidirectional at this point. Decoder is actualized utilizing tf.nn.raw\_rnn. It sustains already produced tokens amid preparing as contributions, rather than target succession.
 
 consistent seq2seq Rectangles are encoder and decoder's intermittent layers. Encoder gets [A, B, C] grouping as data sources. We couldn't care less about encoder yields, just about the concealed state it amasses while perusing the arrangement. After information succession closes, encoder passes its last state to decoder, which gets [&lt;EOS&gt;, W, X, Y, Z] and is prepared to yield [W, X, Y, Z, &lt;EOS&gt;]. &lt;EOS&gt; token is an exceptional word in vocabulary that signs to the decoder the start of interpretation.
 
-Usage subtle elements
+## Usage subtle elements
 
 TensorFlow has its own usage of seq2seq. As of late it was moved from center cases to TensorFlow/models repo and utilizes censured seq2seq execution. Belittling happened claiming it utilizes static unrolling.
 
@@ -130,19 +127,14 @@ The knowledge base is generated and can be used as a source for any further ques
 **QnA runtime (information plane):** The information and runtime are sent in the client's Azure membership in an area of their picking. Client question/answer content is put away in Azure Search, and the runtime is sent as App benefit. Alternatively, you can likewise send an Application bit of knowledge asset for examination.
 
 **BOT UI / Angular JS:**
-
 ![Angular BOT UI](https://github.com/akhilpatlolla/Research-Assistant/blob/master/angular.PNG)
 It's an HTTP post request to dialog flow to implement webhooks and read the response to create a clean chat interface to work within an Angular JS.
-
 
 The API client call is made and access token is passed to open a session. The text from the chat context is made as a request and response are generated on the dialog flow.
 
 Behavior subject is defined as an array of messages and another method add other users message into the behaviors array and then take action on the API Call which in turn updates the bot's response in the same array. To have an observable array which is in turn updated with new messages thereby generating the value.
 
-
-
-
-References:
+## References:
 
 1. Lloret E, Plaza L, Aker A. The challenging task of summary evaluation: an overview. Language Resources &amp; Evaluation [serial on the Internet]. (2018, Mar), [cited May 8, 2018]; 52(1): 101-148.
 2. Wang W, Li Z, Wang J, Zheng Z. How far can we go with extractive text summarization? Heuristic methods to obtain near upper bounds. Expert Systems With Applications [serial on the Internet]. (2017, Dec 30), [cited May 8, 2018]; 90439-463.
