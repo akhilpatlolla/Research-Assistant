@@ -1,7 +1,5 @@
 ![Conversational Bot](https://github.com/akhilpatlolla/Research-Assistant/blob/master/qna_hero_artwork.png)
-# CONVERASTIONAL Q&amp;A BOT, SESSION ON DOCUME
-
-# nTS- Dialog FLow
+# CONVERASTIONAL Q&amp;A BOT, SESSION ON DOCUMENTS- Dialog FLow
 #
 
 **Introduction** :The Whole Idea of the project was to develop an AI Bot which can take in the input document and answer the question by the user. Intelligent Q&amp;A System. The API.AI Python SDK can be used to integrate speech recognition with API.AI natural language processing API. API.AI allows using voice commands and integration with dialog scenarios defined for an agent in API.AI. Google Actions using Machine Learning techniques to cross-check the phrases using MAD LIB technique, a way of asking questions and fill in the blanks based on uses answers.
